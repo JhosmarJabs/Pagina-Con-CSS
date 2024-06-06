@@ -5,49 +5,48 @@ body {
     line-height: 1.6;
 }
 
-header {
+.header {
     background: #333;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
 }
 
-header h1 {
+.header h1 {
     margin: 0;
 }
 
-nav {
+.nav {
     background: #444;
     color: #fff;
     text-align: center;
     padding: 0.5rem 0;
 }
 
-nav ul {
+.nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-nav ul li {
+.nav ul li {
     display: inline;
     margin: 0 1rem;
 }
 
-nav ul li a {
+.nav ul li a {
     color: #fff;
     text-decoration: none;
 }
 
-section {
+.section {
     padding: 2rem;
     max-width: 800px;
     margin: 0 auto;
 }
 
-section Galeria img {
+.section .Galeria img {
     display: flex;
-    
 }   
 
 h2 {
@@ -74,10 +73,17 @@ ul li {
     height: 30%;
 }
 
+.practicas{
+    padding: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 table {
     border-collapse: collapse;
-    border: 1px ;
+    border: 1px solid #3a3a3a;
     text-align: center;
+    width: 100%;
 }
 
 table, th, td {

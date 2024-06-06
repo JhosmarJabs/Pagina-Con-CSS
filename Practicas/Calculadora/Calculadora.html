@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Calculadora">
+        <h1>Calculadora</h1>    
+        <h3 class="label">Captura el valor 1</h3>
+        <input class="txtbox" type="number" id="V1"><br>
+        <div class="operador">
+            <p>+<input type="checkbox" name="operador" value="Sumar" onclick="seleccion(this)"></p>
+            <p>-<input type="checkbox" name="operador" value="Resta" onclick="seleccion(this)"></p>
+            <p>*<input type="checkbox" name="operador" value="Multiplicacion" onclick="seleccion(this)"></p>
+            <p>/<input type="checkbox" name="operador" value="Division" onclick="seleccion(this)"></p>
+        </div>
+        <h3 class="label">Captura el valor 2</h3>
+        <input class="txtbox" type="number" id="V2"><br>
+        <button class="button" onclick="calcular()">Calcular</button><br>
+        <h3 class="label">Resultado</h3>
+        <h3 class="txtbox" id="res">...</h3>
+    </div>
+    <script src="./calculos.js"></script>
+</body>
+</html>
