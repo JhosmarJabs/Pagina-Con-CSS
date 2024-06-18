@@ -1,0 +1,35 @@
+body{
+    background-color: #333;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #444;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    padding: 5vw;
+}
+
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    color: #fff; 
+}
+
+input{
+    width: 95%;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 10px;
+    
+}
+
+input[type="submit"] {
+    background-color: #1d9ac8;
+}
