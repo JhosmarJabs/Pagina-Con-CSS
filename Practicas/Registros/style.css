@@ -23,15 +23,13 @@ body {
 h1{
     font-family: 'Times New Roman', Times, serif;
     font-size: 4rem;
-    color: #fff; 
-    background-color: aqua;
+    color: #fff
 }
 
 h2{
     font-family: 'Times New Roman', Times, serif;
     font-size: 2rem;
-    color: #fff; 
-    background-color: aqua;
+    color: #fff
 }
 
 label{
